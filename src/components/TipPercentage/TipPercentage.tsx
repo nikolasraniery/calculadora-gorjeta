@@ -7,7 +7,8 @@ interface TipPercentageProps {
     onChange: (selectedPercentage: number) => void;
     destacado?: boolean;
     onButtonClick?: () => void;
-    customRefObj: string;
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    customRefObj: any;
 }
 
 
