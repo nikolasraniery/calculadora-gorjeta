@@ -27,38 +27,49 @@ export function Content() {
 
 
   return (
-    <div className='geral-content'>
-        <div className='content-left'>
-          <Bill
-            onChange={(event) => setTippedTip(parseFloat(event.target.value))}
-            value={tippedTip ?? ''}
-            
-          />
-          <TipPercentage
-            selectedPercentage={selectedPercentage}
-            onChange={(value) => setSelectedPercentage(value)}
-            customRefObj={customRef}
 
-          />
-          <NumberPersons
-            onChange={(value) => setNumberOfPeople(parseInt(value.target.value))}
-            value={numberOfPeople ?? ''}
-          />
+    <div className='all'>
+
+        <div className='text-top'>
+            <strong>SPLI</strong>
+            <strong>TTER</strong>
         </div>
-        <div className='content-right'>
-          <TipAmountByPerson
-            value={tipAmountCalc}
-          />
-          <TotalByPerson
-            value={totalByPersonCalc}
-          />
 
-            
-        <button
-            onClick={resetStats}
-        >
-            RESET
-        </button>
+        <div className='geral-content'>
+
+
+            <div className='content-left'>
+            <Bill
+                onChange={(event) => setTippedTip(parseFloat(event.target.value))}
+                value={tippedTip ?? ''}
+                
+            />
+            <TipPercentage
+                selectedPercentage={selectedPercentage}
+                onChange={(value) => setSelectedPercentage(value)}
+                customRefObj={customRef}
+
+            />
+            <NumberPersons
+                onChange={(value) => setNumberOfPeople(parseInt(value.target.value))}
+                value={numberOfPeople ?? ''}
+            />
+            </div>
+            <div className='content-right'>
+            <TipAmountByPerson
+                value={tipAmountCalc}
+            />
+            <TotalByPerson
+                value={totalByPersonCalc}
+            />
+
+                
+            <button
+                onClick={resetStats}
+            >
+                RESET
+            </button>
+            </div>
         </div>
       </div>
   )

@@ -27,3 +27,9 @@
 .destacado:active {
     background: hsl(185, 41%, 84%);
 }
+
+@media all and (max-width: 900px) {
+    .container-tip {
+        width: 50%;
+    }
+}

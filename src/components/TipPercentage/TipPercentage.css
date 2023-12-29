@@ -30,6 +30,10 @@
     cursor: pointer;
 }
 
+.button-tip-percentage input[type=number] {
+    -moz-appearance: textfield;
+}
+
 
 .input-tip-percentage {
     display: flex;
@@ -52,4 +56,11 @@
     border-radius: 4px;
     border-color: hsl(172, 67%, 45%);
 
+}
+
+@media all and (max-width: 900px) {
+    .button-tip-percentage {
+        grid-template-rows: repeat(3, calc(33.33% - 12px));
+        grid-template-columns: repeat(2, calc(50% - 12px));
+    }
 }

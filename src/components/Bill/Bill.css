@@ -37,6 +37,10 @@
     transition: 0.2s;
 }
 
+.bill-input input[type=number] {
+    -moz-appearance: textfield;
+}
+
 .bill-input:focus-within {
     border-radius: 4px;
     border-color: hsl(172, 67%, 45%);

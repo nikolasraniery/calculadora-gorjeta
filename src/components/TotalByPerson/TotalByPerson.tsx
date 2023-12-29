@@ -11,7 +11,7 @@ export function TotalByPerson({value}: TipAmountByPersonProps) {
         <div className="total-person">
                 <div className="text-total-person">
                     <strong>Total</strong>
-                    <span>/ person</span>
+                    <span>/ pessoa</span>
                 </div>
                 <strong className='number'>${value ? value.toFixed(2) : (0).toFixed(2)}</strong>
             </div>

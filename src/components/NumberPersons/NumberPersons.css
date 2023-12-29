@@ -35,6 +35,18 @@
     transition: 0.2s;
 }
 
+.peoples-input input[type=number] {
+    -moz-appearance: textfield;
+}
+
+input::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+}
+
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
 .peoples-input:focus-within {
     border-radius: 4px;
     border-color: hsl(172, 67%, 45%);
@@ -45,4 +57,10 @@
     align-items: center;
     justify-content: center;
     width: 18px;
+}
+
+@media all and (max-width: 900px) {
+    .peoples {
+        margin-top: 0;
+    }
 }

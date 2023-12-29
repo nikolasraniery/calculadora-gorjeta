@@ -22,7 +22,7 @@ function TipPercentage({ onChange, selectedPercentage, customRefObj }: TipPercen
 
     return (
         <div className='select-tip'>
-            <h1 className="tip-percentage">Select Tip %</h1>
+            <h1 className="tip-percentage">Porcentagem de Gorjeta %</h1>
             <div className="button-tip-percentage">
                 <ButtonTip 
                     value={0.05} 

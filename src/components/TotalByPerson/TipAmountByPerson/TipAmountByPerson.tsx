@@ -11,8 +11,8 @@ export function TipAmountByPerson({ value }: TipAmountByPersonProps) {
         <div className="all-total-stats">
             <div className="tip-amount">
                 <div className="text-tip-amount">
-                    <strong>Tip Amount</strong>
-                    <span>/ person</span>
+                    <strong>Gorjeta</strong>
+                    <span>/ pessoa</span>
                 </div>
                 <strong 
                 className="number"
