@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap');
+
+.container-tip {
+    display: flex;
+    width: 33.33%;
+    flex-wrap: wrap-reverse;
+}
+
+.button-tip {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 0;
+    background: rgb(0, 73, 77);
+    color: rgb(255, 255, 255);
+    font-family: 'Space Mono', monospace;
+    font-size: 18px;
+    border: none;
+    border-radius: 4px;
+}
+
+.destacado {
+    color: rgb(0, 73, 77);
+    background: hsl(172, 67%, 45%)
+}
+
+.destacado:active {
+    background: hsl(185, 41%, 84%);
+}

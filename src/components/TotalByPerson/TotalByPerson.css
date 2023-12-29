@@ -1,0 +1,15 @@
+.total-person {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 100px;
+}
+
+.text-total-person {
+    display: flex;
+    flex-direction: column;
+}
+
+.text-total-person span {
+    color: rgb(94, 122, 125);
+}
